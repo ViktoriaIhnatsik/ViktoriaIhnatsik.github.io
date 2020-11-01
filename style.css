@@ -1,14 +1,36 @@
 body {
   background-color: #f2f4f5;
+  margin: 0px;
+  min-width: 340px;
+  min-height: 100vh;
 }
 
+/* HEADER */
 header {
   background-image: url("pict/header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
+  height: 400px;
   position: relative;
+}
+
+.title {
+  color: #f7fafa;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 5%;
+  width: 25%;
+}
+
+.profile-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  right: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
