@@ -33,4 +33,10 @@ header {
   right: 250px;
 }
 
+.headerLinks {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+}
+
 /*# sourceMappingURL=style.css.map */
