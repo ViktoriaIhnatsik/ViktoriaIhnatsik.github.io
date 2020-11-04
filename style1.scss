@@ -27,6 +27,7 @@ header{
     top: 100px;
     left: 5%;
     width: 25%;
+    font-weight: bold;
 }
   
 .profile-img {
@@ -43,3 +44,12 @@ header{
     top: 15px;
     right: 40px;
   }
+
+
+  /* About Me*/
+
+  #aboutMe {
+    line-height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    }
