@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
 }
 
-/* HEADER */
+//HEADER 
 
 header{
     background-image: url('pict/header.jpg');
@@ -23,6 +23,8 @@ header{
     position: relative;
 }
 
+// Header title
+
 .title {
     color: $font-color-light;
     font-family: $font-family-header;
@@ -31,13 +33,14 @@ header{
     left: 5%;
     width: 25%;
                           
-    h1 {                    //nesting
+    h1 {                    
         font-weight: bold;
         text-transform: uppercase;
     }
 }
 
-  
+  // Photo of me
+
 .profile-img {
     height: 300px;
     width: 300px;
@@ -47,14 +50,25 @@ header{
     right: 250px;
   }
 
+// Links github, linkedin
+
   .headerLinks {
     position: absolute;
     top: 15px;
     right: 40px;
+
+    a {
+    border-bottom: 3px transparent solid;
+    padding-bottom: 2.5rem;
+    transition: border-color 0.5s;
+
+    &:hover {
+        border-color: $light-color;
+    }
+   }
   }
 
-
-  /* About Me*/
+  //About Me
 
   #aboutMe {
     padding: 80px;

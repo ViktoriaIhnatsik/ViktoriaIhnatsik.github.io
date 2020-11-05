@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
 }
 
-/* HEADER */
 header {
   background-image: url("pict/header.jpg");
   background-position: center;
@@ -47,8 +46,15 @@ header {
   top: 15px;
   right: 40px;
 }
+.headerLinks a {
+  border-bottom: 3px transparent solid;
+  padding-bottom: 2.5rem;
+  transition: border-color 0.5s;
+}
+.headerLinks a:hover {
+  border-color: #f4f4f4;
+}
 
-/* About Me*/
 #aboutMe {
   padding: 80px;
   color: #272a2e;
