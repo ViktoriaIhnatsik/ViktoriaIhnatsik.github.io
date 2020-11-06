@@ -94,6 +94,10 @@ header {
 
   .section-title {
     @extend %title;
+
+    &:hover {
+      color: $dark-color;
+    }
   }
 
   .bottom-line {
@@ -110,59 +114,103 @@ header {
   }
 }
 
+//Projects
+#projects {
+  padding-top: 5rem;
+  color: $font-color-blue;
 
+  .container {
+    @extend %cont;
+  }
 
+  .section-title {
+    @extend %title;
 
+    &:hover {
+      color: $dark-color;
+    }
+  }
+  .bottom-line {
+    @extend %underline;
+  }
+}
+.items {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: $font-color-light;
+}
 
+.item {
+  position: relative;
+  background-color: $main-color;
+  overflow: hidden;
 
+  img {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    height: 300px;
+    width: 500px;
+  }
 
-
-
-
-
-
-
-
-
-
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: inherit;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(2) translateX(-75%) translateY(-75%) rotate(-65deg);
+    transition: transform 2s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  //Bring in main color overlay
+  &:hover:after {
+    background-color: $main-color;
+    transform: scale(2) translateX(-75%) translateY(0) rotate(-28deg);
+    transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+}
 
 //Footer
-footer { 
-    background-color:$dark-color;
-    color: $font-color-light;
-    height: 21rem;
+footer {
+  background-color: $dark-color;
+  color: $font-color-light;
+  height: 21rem;
 
+  .footer-content {
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 1rem;
+    font-family: $font-family;
 
-      .footer-content {
-        text-align: center;
-        padding-top: 3rem;
-        margin-top: 1rem;
-        font-family: $font-family;
+    h2 {
+      margin-bottom: 2rem;
+      font-family: $font-family-header;
+      color: $main-color;
+    }
+    h3 {
+      font-weight: bold;
+    }
 
-        h2 {
-            margin-bottom: 2rem;
-            font-family: $font-family-header;
-            color: $main-color;
-        }
-        h3 {
-            font-weight: bold;
-        }
+    .footerLinks .fab {
+      font-size: 50px;
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 80px;
+      width: 80px;
+      line-height: 80px;
+      text-align: center;
+      padding: 0.5;
 
-        .footerLinks .fab {
-            font-size: 50px;
-            margin-right: 1rem;
-            border: 2px #fff solid;
-            border-radius: 50%;
-            height: 80px;
-            width: 80px;
-            line-height: 80px;
-            text-align: center;
-            padding: 0.5;
-
-            &:hover {
-                background-color: $main-color;
-            }
-        }
+      &:hover {
+        background-color: $main-color;
       }
-
+    }
+  }
 }
