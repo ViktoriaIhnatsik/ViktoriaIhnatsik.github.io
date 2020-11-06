@@ -10,3 +10,28 @@ $main-color: #257ca1;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
 $dark-color: #333;
+
+                                    //Extend/Inheritance
+%cont {
+    max-width: $website-width;
+    padding: 0 1.5rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  %title {
+    font-size: 40px;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  %underline {
+    height: 3px;
+    width: 6rem;
+    background: $medium-color;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
