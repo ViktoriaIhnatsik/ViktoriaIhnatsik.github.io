@@ -98,4 +98,38 @@ header {
   font-size: 20px;
 }
 
+footer {
+  background-color: #374757;
+  color: #f7fafa;
+  height: 21rem;
+}
+footer .footer-content {
+  text-align: center;
+  padding-top: 3rem;
+  margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+footer .footer-content h2 {
+  margin-bottom: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #257ca1;
+}
+footer .footer-content h3 {
+  font-weight: bold;
+}
+footer .footer-content .footerLinks .fab {
+  font-size: 50px;
+  margin-right: 1rem;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  padding: 0.5;
+}
+footer .footer-content .footerLinks .fab:hover {
+  background-color: #257ca1;
+}
+
 /*# sourceMappingURL=style.css.map */

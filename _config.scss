@@ -9,7 +9,7 @@ $website-width: 1280px;
 $main-color: #257ca1;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
-$dark-color: #333;
+$dark-color: #374757;
 
                                     //Extend/Inheritance
 %cont {
@@ -35,3 +35,13 @@ $dark-color: #333;
     display: block;
     margin: 0 auto 1rem auto;
   }
+
+// Set text color
+@function set-text-color($color) {
+    @if(lightness($color) < 50) {
+        @return #272a2e;
+    }
+    @else {
+        @return #f7fafa;
+    }
+}
