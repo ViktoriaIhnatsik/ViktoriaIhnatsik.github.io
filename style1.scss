@@ -114,6 +114,8 @@ header {
   }
 }
 
+
+
 //Projects
 #projects {
   padding-top: 5rem;
@@ -135,24 +137,29 @@ header {
   }
 }
 .items {
-  margin-top: 4rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: $font-color-light;
+  display: flex;
+  width: auto;
+  //max-width: 900px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .item {
   position: relative;
-  background-color: $main-color;
+  background-color: $dark-color;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  max-width: 400px;
+  margin-top: 3rem;
 
   img {
-    margin-top: 2rem;
-    margin-left: 2.5rem;
-    height: 300px;
-    width: 500px;
+  height: 250px;
+  width: 400px;
+  filter: brightness(90%)
   }
 
   &::after {
@@ -176,6 +183,8 @@ header {
   }
 }
 
+
+
 //Footer
 footer {
   background-color: $dark-color;
@@ -192,6 +201,7 @@ footer {
       margin-bottom: 2rem;
       font-family: $font-family-header;
       color: $main-color;
+      font-weight: bold;
     }
     h3 {
       font-weight: bold;
