@@ -105,7 +105,7 @@ header {
   }
 
   .sections {
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
@@ -118,7 +118,7 @@ header {
 
 //Projects
 #projects {
-  padding-top: 5rem;
+  margin-top: 10rem;
   color: $dark-color;
 
   .container {
@@ -174,7 +174,7 @@ header {
 
 //Education
 #education {
-  padding-top: 5rem;
+  margin-top: 10rem;
   color: $dark-color;
 
   .container {
@@ -192,6 +192,20 @@ header {
     @extend %underline;
   }
 }
+
+.media{
+  margin-top: 5rem;
+  font-family: $font-family;
+  font-size: 18px;
+  margin-right: 5rem;
+
+  .fas{
+    font-size: 150px;
+    margin-right: 2rem;
+  }
+}
+
+
 
 
 //Footer
