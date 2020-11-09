@@ -215,7 +215,7 @@ footer .footer-content .footerLinks .fab:hover {
   background-color: #1b78f2;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 650px) {
   header {
     text-align: center;
   }
@@ -268,6 +268,21 @@ footer .footer-content .footerLinks .fab:hover {
     text-align: center;
     padding-right: 5rem;
     padding-left: 5rem;
+  }
+
+  #education {
+    margin-top: 4rem;
+  }
+  #education .media {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  #education .media .fas {
+    padding-left: 3rem;
   }
 }
 
