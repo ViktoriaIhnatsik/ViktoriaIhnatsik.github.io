@@ -70,13 +70,20 @@ header {
   top: 15px;
   right: 40px;
 }
-.headerLinks a {
-  border-bottom: 3px transparent solid;
-  padding-bottom: 2.5rem;
-  transition: border-color 0.5s;
+.headerLinks .fab {
+  font-size: 50px;
+  color: #fff;
+  margin-right: 1rem;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  padding: 0.5;
 }
-.headerLinks a:hover {
-  border-color: #ccc;
+.headerLinks .fab:hover {
+  background-color: #257ca1;
 }
 
 #aboutMe {
@@ -146,6 +153,7 @@ header {
 }
 .media {
   margin-top: 5rem;
+  margin-bottom: 5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   margin-right: 5rem;
@@ -153,6 +161,14 @@ header {
 .media .fas {
   font-size: 150px;
   margin-right: 2rem;
+}
+.media h3, .media h4, .media h5 {
+  font-family: "Roboto", sans-serif;
+}
+.media .list {
+  font-weight: bold;
+  margin-top: 2rem;
+  padding-left: 0;
 }
 
 footer {
@@ -189,6 +205,49 @@ footer .footer-content .footerLinks .fab {
 }
 footer .footer-content .footerLinks .fab:hover {
   background-color: #257ca1;
+}
+
+@media only screen and (max-width: 660px) {
+  header {
+    text-align: center;
+  }
+
+  .title {
+    color: #374757;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .headerLinks {
+    width: 300px;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .headerLinks .fab {
+    color: #374757;
+    border: 2px #374757 solid;
+  }
+
+  .profile-img {
+    height: 200px;
+    width: 200px;
+    top: 270px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
