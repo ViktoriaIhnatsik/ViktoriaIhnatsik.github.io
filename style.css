@@ -6,6 +6,7 @@
 }
 
 #education .section-title, #projects .section-title, #skills .section-title {
+  color: #1b78f2;
   font-size: 40px;
   display: block;
   padding-bottom: 0.5rem;
@@ -17,7 +18,7 @@
 #education .bottom-line, #projects .bottom-line, #skills .bottom-line {
   height: 3px;
   width: 6rem;
-  background: #1b78f2;
+  background: #374757;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -99,7 +100,7 @@ header {
   color: #374757;
 }
 #skills .section-title:hover {
-  color: #1b78f2;
+  color: #374757;
 }
 #skills .sections {
   margin-top: 5rem;
@@ -115,10 +116,10 @@ header {
   margin-top: 10rem;
   color: #374757;
   padding-top: 5rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
 }
 #projects .section-title:hover {
-  color: #1b78f2;
+  color: #374757;
 }
 .items {
   display: flex;
@@ -150,11 +151,11 @@ header {
 }
 
 #education {
-  margin-top: 8rem;
+  margin-top: 6rem;
   color: #374757;
 }
 #education .section-title:hover {
-  color: #1b78f2;
+  color: #374757;
 }
 .media {
   margin-top: 5rem;
