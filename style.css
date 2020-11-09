@@ -17,7 +17,7 @@
 #education .bottom-line, #projects .bottom-line, #skills .bottom-line {
   height: 3px;
   width: 6rem;
-  background: #257ca1;
+  background: #1b78f2;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -83,10 +83,11 @@ header {
   padding: 0.5;
 }
 .headerLinks .fab:hover {
-  background-color: #257ca1;
+  background-color: #1b78f2;
 }
 
 #aboutMe {
+  background-color: #e8eaeb;
   padding: 100px;
   color: #272a2e;
   font-size: 25px;
@@ -94,10 +95,11 @@ header {
   text-align: center;
 }
 #skills {
+  margin-top: 5rem;
   color: #374757;
 }
 #skills .section-title:hover {
-  color: #257ca1;
+  color: #1b78f2;
 }
 #skills .sections {
   margin-top: 5rem;
@@ -109,11 +111,14 @@ header {
 }
 
 #projects {
+  background-color: #e8eaeb;
   margin-top: 10rem;
   color: #374757;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 #projects .section-title:hover {
-  color: #257ca1;
+  color: #1b78f2;
 }
 .items {
   display: flex;
@@ -145,11 +150,11 @@ header {
 }
 
 #education {
-  margin-top: 10rem;
+  margin-top: 8rem;
   color: #374757;
 }
 #education .section-title:hover {
-  color: #257ca1;
+  color: #1b78f2;
 }
 .media {
   margin-top: 5rem;
@@ -157,8 +162,10 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   margin-right: 5rem;
+  color: #272a2e;
 }
 .media .fas {
+  color: #374757;
   font-size: 150px;
   margin-right: 2rem;
 }
@@ -174,7 +181,7 @@ header {
 footer {
   background-color: #374757;
   color: #f7fafa;
-  height: 21rem;
+  height: 23rem;
 }
 footer .footer-content {
   text-align: center;
@@ -185,10 +192,10 @@ footer .footer-content {
 footer .footer-content h2 {
   margin-bottom: 2rem;
   font-family: "Roboto", sans-serif;
-  color: #257ca1;
+  color: #1b78f2;
   font-weight: bold;
 }
-footer .footer-content h3 {
+footer .footer-content h3, footer .footer-content h5 {
   font-weight: bold;
 }
 footer .footer-content .footerLinks .fab {
@@ -202,9 +209,10 @@ footer .footer-content .footerLinks .fab {
   line-height: 80px;
   text-align: center;
   padding: 0.5;
+  margin-top: 2rem;
 }
 footer .footer-content .footerLinks .fab:hover {
-  background-color: #257ca1;
+  background-color: #1b78f2;
 }
 
 @media only screen and (max-width: 660px) {
@@ -242,11 +250,24 @@ footer .footer-content .footerLinks .fab:hover {
   .profile-img {
     height: 200px;
     width: 200px;
-    top: 270px;
-    right: 0;
+    top: 300px;
     left: 0;
+    right: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #aboutMe {
+    font-size: 25px;
+    padding-top: 8rem;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .item-text-description {
+    text-align: center;
+    padding-right: 5rem;
+    padding-left: 5rem;
   }
 }
 
