@@ -69,8 +69,8 @@ header {
 }
 
 #aboutMe {
-  background-color: #e8eaeb;
-  padding: 100px;
+  background-color: #f2f2f2;
+  padding: 100px 250px;
   color: #272a2e;
   font-size: 25px;
   font-family: "Montserrat", sans-serif;
@@ -122,12 +122,12 @@ header {
 }
 #skills .sections p {
   word-spacing: 7px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #projects {
-  background-color: #e8eaeb;
-  margin-top: 10rem;
+  background-color: #f2f2f2;
+  margin-top: 7rem;
   color: #374757;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -179,12 +179,14 @@ header {
 .item .item-text {
   color: #272a2e;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 2rem;
+  word-spacing: 7px;
 }
 .item .item-text h3 {
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 25;
 }
 
 #education {
@@ -306,6 +308,10 @@ footer .footer-content .footerLinks .fab:hover {
     right: 0;
   }
 
+  #aboutMe {
+    padding: 100px 20px;
+  }
+
   footer {
     height: 41rem;
   }
@@ -367,6 +373,16 @@ footer .footer-content .footerLinks .fab:hover {
     padding-top: 8rem;
     padding-left: 1px;
     padding-right: 1px;
+  }
+
+  #skills {
+    text-align: center;
+  }
+  #skills .sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .item-text-description {
