@@ -38,7 +38,7 @@ header {
 
   @keyframes animated-text {
     from{width: 0;}
-    to{width: 400px;}
+    to{width: 500px;}
   }
 }
 
@@ -268,7 +268,39 @@ footer {
 
 
 //Media queries
+ //Ipad
+@media only screen and (min-width: 650px) and (max-width: 950px) {
+  
+  .title {
+    left: 2%;
+    margin-left: auto;
 
+    h1 {
+      overflow: hidden;  
+      white-space: unset; 
+      font-size: 30px;
+    }
+    @keyframes animated-text {
+      from{width: 0;}
+      to{width: 100%;}
+    }
+  }
+
+  .profile-img {
+    height: 270px;
+    width: 270px;
+    top: 160px;
+    right: 15%;
+  }
+
+  .headerLinks {
+    right: 0;
+}
+   footer {
+     height: 41rem;
+   }
+}
+//Iphone
 @media only screen and (max-width: 650px) {
 
   header {
@@ -285,8 +317,15 @@ footer {
     margin-right: auto;
     width: 100%;
 
-    h1 {
+    h1 {                         
+      overflow: hidden;  
+      white-space: unset; 
       font-size: 30px;
+    }
+  
+    @keyframes animated-text {
+      from{width: 0;}
+      to{width: 100%;}
     }
   
   }

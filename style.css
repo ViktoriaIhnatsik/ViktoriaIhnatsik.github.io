@@ -34,7 +34,7 @@ header {
     width: 0;
   }
   to {
-    width: 400px;
+    width: 500px;
   }
 }
 
@@ -272,6 +272,40 @@ footer .footer-content .footerLinks .fab:hover {
   background-color: #1b78f2;
 }
 
+@media only screen and (min-width: 650px) and (max-width: 950px) {
+  .title {
+    left: 2%;
+    margin-left: auto;
+  }
+  .title h1 {
+    overflow: hidden;
+    white-space: unset;
+    font-size: 30px;
+  }
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  .profile-img {
+    height: 270px;
+    width: 270px;
+    top: 160px;
+    right: 15%;
+  }
+
+  .headerLinks {
+    right: 0;
+  }
+
+  footer {
+    height: 41rem;
+  }
+}
 @media only screen and (max-width: 650px) {
   header {
     text-align: center;
@@ -288,7 +322,17 @@ footer .footer-content .footerLinks .fab:hover {
     width: 100%;
   }
   .title h1 {
+    overflow: hidden;
+    white-space: unset;
     font-size: 30px;
+  }
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
   }
 
   .headerLinks {
