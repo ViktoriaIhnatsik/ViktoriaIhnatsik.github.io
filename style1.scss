@@ -1,11 +1,5 @@
 @import "config";
 
-/*
-* {
-    margin: 0;
-    padding: 0;
-}*/
-
 body {
   background-color: $back-color;
   margin: 0px;
@@ -36,7 +30,7 @@ header {
 
   h1 {                         //Animation
     overflow: hidden;  
-    white-space: unset;//nowrap;
+    white-space: unset; 
     font-weight: bold;
     text-transform: uppercase;
     animation: animated-text 2s steps(30,end) 1s 1 normal both;
@@ -44,7 +38,7 @@ header {
 
   @keyframes animated-text {
     from{width: 0;}
-    to{width: 500px;}
+    to{width: 400px;}
   }
 }
 
@@ -94,7 +88,7 @@ header {
   text-align: center;
 
   .container {
-    @extend %cont;
+    @include cont;
   }
 }
 
@@ -105,19 +99,15 @@ header {
   color: $dark-color;
 
   .container {
-    @extend %cont;
+    @include cont;
   }
 
   .section-title {
-    @extend %title;
-
-    &:hover {
-      color: $dark-color
-    }
+    @include title;
   }
 
   .bottom-line {
-    @extend %underline;
+    @include underline;
   }
 
   .sections {
@@ -141,18 +131,14 @@ header {
   padding-bottom: 5rem;
 
   .container {
-    @extend %cont;
+    @include cont;
   }
 
   .section-title {
-    @extend %title;
-
-    &:hover {
-      color:$dark-color
-    }
+    @include title;
   }
   .bottom-line {
-    @extend %underline;
+    @include underline;
   }
 }
 .items {
@@ -197,18 +183,14 @@ header {
   color: $dark-color;
 
   .container {
-    @extend %cont;
+    @include cont;
   }
 
   .section-title {
-    @extend %title;
-
-    &:hover {
-      color: $dark-color
-    }
+    @include title;
   }
   .bottom-line {
-    @extend %underline;
+    @include underline;
   }
 }
 
