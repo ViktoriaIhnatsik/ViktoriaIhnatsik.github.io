@@ -1,0 +1,13 @@
+Tillgänglighetskrav:
+1.1.1  Beskriv med text allt innehåll som inte är text
+1.4.10 Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
+
+Scrum:
+
+
+
+Grafisk profil:
+
+
+
+Tillgänglighet:
