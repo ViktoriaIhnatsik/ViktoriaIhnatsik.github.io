@@ -4,10 +4,30 @@ Tillgänglighetskrav:
 
 Scrum:
 
+Scrum är ett ramverk för att utveckla och underhålla komplexa produkter. 
+Scrum går ut på att man fokuserar på mindre delmål istället för större mål,
+vilket gör det lättare att se vad som behöver göras och hur man ska göra det. 
+Små team delar upp sitt arbete i ”miniprojekt”  där man löser ett begränsat antal detaljerade arbetsuppgifter.
+Scrum fokuserar  på att hela tiden leverera affärsvärde. 
+
+Scrum består av roller, artefakter och events. 
+- roller ( product owner, scrum master, development team)
+- artifacts (product backlog, sprint backlog, increment, sprint)
+- events (sprint planning, daily scrum, sprint review, sprint retrospective)
 
 
 Grafisk profil:
 
+Grafisk profil är en typ av manual eller instruktion för hur ett företags eller organisations logotyp ska användas samt färger, 
+typsnitt och grafiska element som kan ingå i den visuella kommunikationen. 
+Anledningen till fastställande av grafiska profiler är att ge ett
+likriktat användande av de bilder och texter som representerar organisationen.
+I grafisk profil ingår  logotyp, färger, typsnitt, eventuella mönster, symboler eller andra grafiska element.
 
 
 Tillgänglighet:
+
+
+Tillgänglighet på webben betecknar hur väl en webbplats fungerar för personer med funktionsnedsättning och 
+att information och tjänster ska kunna användas av alla människor oavsett till exempel funktionsnedsättning . 
+Tillgänglighet på webben standardiseras i riktlinjerna Web Content Accessibility Guidelines (WCAG).
