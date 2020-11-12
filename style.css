@@ -239,7 +239,14 @@ header {
 .media .list {
   font-weight: bold;
   margin-top: 2rem;
-  padding-left: 0;
+  padding-left: 0.5rem;
+}
+.media .list ul {
+  margin-bottom: 10rem;
+}
+.media .list li {
+  margin-top: 0.5rem;
+  font-weight: normal;
 }
 
 footer {
