@@ -172,6 +172,9 @@ header {
   max-width: 500px;
   margin-top: 3rem;
 }
+.item a {
+  text-decoration: none;
+}
 .item img {
   height: 300px;
   width: 500px;
@@ -226,23 +229,33 @@ header {
   margin-right: 3rem;
   color: #272a2e;
 }
+.media a {
+  text-decoration: none;
+}
 .media .fas {
   color: #374757;
   font-size: 120px;
   margin-right: 2rem;
+}
+.media .fas:hover {
+  color: #1b78f2;
 }
 .media h3, .media h4, .media h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   color: #374757;
 }
+.media h3:hover {
+  color: #1b78f2;
+}
+.media .heading {
+  padding-top: 1rem;
+  font-weight: bolder;
+}
 .media .list {
   font-weight: bold;
   margin-top: 2rem;
   padding-left: 0.5rem;
-}
-.media .list ul {
-  margin-bottom: 10rem;
 }
 .media .list li {
   margin-top: 0.5rem;
@@ -412,6 +425,10 @@ footer .footer-content .footerLinks .fab:hover {
   }
   #education .media .fas {
     padding-left: 3rem;
+    padding-bottom: 1rem;
+  }
+  #education .media .list {
+    margin-left: 2rem;
   }
 }
 
