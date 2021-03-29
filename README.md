@@ -18,4 +18,4 @@ Sidan ska vara publikt tillgänglig.
 - Sidan ska vara responsiv och använda media queries.
 - Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids eller Flexbox.
 - Det ska finnas en sida som beskriver utbildningen.
-- I ditt repo ska det finnas en rapport.txt (jag kommer att kolla era repon genom VS Code och vill slippa öppna Word eller liknande) där du beskriver Scrum, grafisk profil och tillgänglighet så att jag kan se att du förstår dessa begrepp.
+
