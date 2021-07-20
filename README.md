@@ -1,10 +1,10 @@
 # ViktoriaIhnatsik.github.io
-:link: [portfolio](ViktoriaIhnatsik.github.io)
 
  **HTML/CSS kurs**
 >Uppgift:
 
 Individuell inlämningsuppgift - portfolio/CV
+
 Er uppgift är att bygga en sida som fungerar som CV/portfolio.
 
 Sidan ska innehålla följande delar:
