@@ -5,17 +5,16 @@
 
 Individuell inlämningsuppgift - portfolio/CV
 
-Er uppgift är att bygga en sida som fungerar som CV/portfolio.
+Bygga en sida som fungerar som CV/portfolio.
 
 Sidan ska innehålla följande delar:
 
-Landing page - kortfattad beskrivning.
-Kontaktuppgifter.
-Portfolio.
-Länkar till GitHub, LinkedIn och liknande.
-Ni ska implementera ett visst antal tillgänglighetskrav. (https://webbriktlinjer.se/wcag/)
-
-Sidan ska vara publikt tillgänglig.
+- Landing page - kortfattad beskrivning.
+- Kontaktuppgifter.
+- Portfolio.
+- Länkar till GitHub, LinkedIn och liknande.
+- Ni ska implementera ett visst antal tillgänglighetskrav. (https://webbriktlinjer.se/wcag/)
+- Sidan ska vara publikt tillgänglig.
 
 - Ni ska visa att ni kan använda SCSS genom att använda mixins och nästlade selektorer.
 - Implementera minst 2 tillgänglighetskrav.
